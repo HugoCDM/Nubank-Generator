@@ -252,8 +252,7 @@ def invoice_generate(event=None):
             elif len(months) == 1 and months[0] in months_of_the_year:
                 beginning = f'2024-{months[0]}-01'
                 fim = f'2024-{months[0]}-31'
-                new_invoice = f'Nubank {
-                    months_of_the_year[months[0]]} invoice.xlsx'
+                new_invoice = f'Nubank {months_of_the_year[months[0]]} invoice.xlsx'
 
                 try:
                     df = df[(df['Date'] >= pd.to_datetime(beginning))
@@ -265,8 +264,7 @@ def invoice_generate(event=None):
             elif len(months) == 2 and months[0] < months[1] and (months[0] and months[1] in months_of_the_year):
                 beginning = f'2024-{months[0]}-01'
                 fim = f'2024-{months[1]}-31'
-                new_invoice = f'Nubank {
-                    months_of_the_year[months[0]]}-{months_of_the_year[months[1]]} invoice .xlsx'
+                new_invoice = f'Nubank {months_of_the_year[months[0]]}-{months_of_the_year[months[1]]} invoice .xlsx'
 
                 try:
                     df = df[(df['Date'] >= pd.to_datetime(beginning))
@@ -278,8 +276,7 @@ def invoice_generate(event=None):
             elif len(months) == 2 and months[0] > months[1] and (months[0] and months[1] in months_of_the_year):
                 beginning = f'2024-{months[1]}-01'
                 fim = f'2024-{months[0]}-31'
-                new_invoice = f'Nubank {
-                    months_of_the_year[months[1]]}-{months_of_the_year[months[0]]} invoice .xlsx'
+                new_invoice = f'Nubank {months_of_the_year[months[1]]}-{months_of_the_year[months[0]]} invoice .xlsx'
 
                 try:
                     df = df[(df['Date'] >= pd.to_datetime(beginning))
