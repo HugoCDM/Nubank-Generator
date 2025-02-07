@@ -6,7 +6,7 @@
 
 ![nubank](https://github.com/user-attachments/assets/64402dda-e9bb-4b6a-be23-a5dc9bea1a1c)
 
-### Built with
+## Built with
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666c6174266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534](https://github.com/user-attachments/assets/78a19a49-1893-43a5-9ffc-8d6d49d068c5)
 
 ## Usage
@@ -14,8 +14,8 @@
 - User must provide the file path where Nubank CSV files are stored
 ### 2. Period Selection
 - The application supports some time periods:
-  - A single month(e.g ***01*** referring to January)
-  - A range between two months(eg ***04-09*** referring to April to September)
+  - A single month(e.g. ***01*** referring to January)
+  - A range between two months(e.g. ***04-09*** referring to April to September)
   - All months(***all***)
 
 ### 3. Buttons and Functionalities
@@ -26,7 +26,7 @@
 #### 3.2 Generate Button
 - Calls the invoice_generate() function
 - Generates an invoice based on selected CSV data
-- The file extension is .xlsx(Excel)
+- The file extension created is .xlsx(Excel)
 
 ## Functions
 ### nubank_app()
