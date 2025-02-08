@@ -14,7 +14,7 @@
    ```
 2. Create and activate a virtual environment(optional)
    ```bash
-   python -m 'your_venv_name' venv
+   python -m venv your_venv_name
    .\venv\Scripts\activate
    ```
 3. Install the dependencies -requirements
