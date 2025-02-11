@@ -1,7 +1,7 @@
 # Nubank Invoice Generator App(in development)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-<p> A Tkinter-based application for analyzing Nubank CSV files and generating invoices through interactive graphs and charts and text from Excel.</p>
+<p> A Tkinter-based application for analyzing Nubank CSV files and generating invoices through interactive graphs and charts and Excel-based reports.</p>
 
 
 
