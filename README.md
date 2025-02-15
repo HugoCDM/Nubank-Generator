@@ -3,7 +3,9 @@
 
 <p> A Tkinter-based application for analyzing Nubank CSV files and generating invoices through interactive graphs and charts and Excel-based reports.</p>
 
+![nubank](https://github.com/user-attachments/assets/1ace8d36-c1f9-44f1-a2f2-eeba6e52f86e)
 
+![nubank february graphs](https://github.com/user-attachments/assets/5d391c60-3712-421e-9d9a-2aa23e037517)
 
 
 ## 📥 Installation
@@ -57,9 +59,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser # Then type
 
 
 ## 🌅 Image section
-![nubank](https://github.com/user-attachments/assets/1ace8d36-c1f9-44f1-a2f2-eeba6e52f86e)
 
-![nubank february graphs](https://github.com/user-attachments/assets/5d391c60-3712-421e-9d9a-2aa23e037517)
 
 
 ### *Made by [Hugo Mello](https://github.com/HugoCDM)*
