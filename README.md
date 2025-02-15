@@ -58,7 +58,6 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser # Then type
 - Only Excel files allowed.
 
 
-## 🌅 Image section
 
 
 
